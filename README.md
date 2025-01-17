@@ -70,10 +70,17 @@ project-root/
 │   │   └── style.css         # Custom styles
 ├── src/
 │   ├── components/
+|   |   ├── renderButton.js   # Component for rendering book elements
 │   │   └── renderBook.js     # Component for rendering book elements
 │   ├── helpers/
+|   |   ├── formSelectors.js  # Helper to select all form input
+|   |   ├── generateBook.js   # Helper to generate book structure
+|   |   ├── generateId.js     # Helper to generate unique id
+|   |   └── saveStorage.js    # Helper to save to storage
 │   ├── modules/
 │   │   ├── addBook.js        # Module for adding books
+│   │   ├── bookOperation.js  # Module for book operation (change status, delete, edit)
+│   │   ├── editBook.js       # Module for editing a book
 │   │   ├── loadBooks.js      # Module for loading books from local storage
 │   │   ├── bookStorage.js    # Module for managing local storage
 │   │   └── searchBook.js     # Module for searching books
