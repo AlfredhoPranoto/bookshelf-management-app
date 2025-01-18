@@ -83,7 +83,6 @@ const deleteBook = (bookId) => {
 
 const editBook = (book) => {
     localStorage.setItem('editBook', JSON.stringify(book));
-    window.location.href = `editBook.html?id=${book.id}`;
 }
 
 export { changeIsCompleteStatus, deleteBook, editBook }
